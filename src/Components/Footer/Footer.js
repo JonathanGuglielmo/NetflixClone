@@ -4,7 +4,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import tmdb from "../../Assets/tmdb.png";
 import github from "../../Assets/github.png";
-import Thanos from "react-thanos";
+import { Thanos } from "react-thanos";
 
 const Footer = () => {
   return (
@@ -18,9 +18,9 @@ const Footer = () => {
 
           <h1
             className="footer__text footer__text--1"
-            onClick={() => window.open(`https://shivamaima.com/`, "_blank")}
+            onClick={() => window.open(`https://ar.linkedin.com/in/jonathan-javier-guglielmo-2a491517a`, "_blank")}
           >
-            By <span className="footer__link">Shivam Aima</span>
+            By <span className="footer__link">Jonathan Guglielmo</span>
           </h1>
         </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
           />
 
           <h1 className="footer__text footer__text--2">
-            Copyright©2019, <span className="react"> ReactJS is
+            Copyright©2022, <span className="react"> ReactJS is
             <FontAwesomeIcon
               icon={faHeart}
               className="footer__icon-heart-o footer__icon-heart-off"
@@ -47,7 +47,7 @@ const Footer = () => {
         <div
           className="footer__end"
           onClick={() =>
-            window.open(`https://github.com/darwin619/Netflix-Clone`, "_blank")
+            window.open(`https://github.com/JonathanGuglielmo`, "_blank")
           }
         >
           <img src={github} alt="github" className="footer__logo-github" />

@@ -3,13 +3,12 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const Config = {
-  apiKey: "AIzaSyA7Zk0d-jyuBGkinHOlBBm4mS4jAb0gjXQ",
-  authDomain: "netflix-clone-by-shivam.firebaseapp.com",
-  databaseURL: "https://netflix-clone-by-shivam.firebaseio.com",
-  projectId: "netflix-clone-by-shivam",
-  storageBucket: "",
-  messagingSenderId: "889922598558",
-  appId: "1:889922598558:web:7ca925df16da432c"
+  apiKey: "AIzaSyAOxD4R5slP6Wh98HLTEnkL4I5qt3B6n08",
+  authDomain: "monkey-movies.firebaseapp.com",
+  projectId: "monkey-movies",
+  storageBucket: "monkey-movies.appspot.com",
+  messagingSenderId: "18676366068",
+  appId: "1:18676366068:web:2ca047e32d1ee171a23ca1"
 };
 
 export const CreateUserProfileDocument = async (userAuth, additionalData) => {
